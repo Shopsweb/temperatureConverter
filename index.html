@@ -11,7 +11,7 @@
   <body>
     <script>
         if('serviceWorker' in navigator){
-            navigator.serviceWorker.register('/sw.js',{scope:'/temperatureConverter'});
+            navigator.serviceWorker.register('/temperatureConverter/sw.js',{scope:'/'});
         }
     </script>
     <form id="converter">
